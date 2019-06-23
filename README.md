@@ -8,6 +8,9 @@ Eventually this should be a well documented guide explaining the how to use the 
 **[*****Cmnd Index*****]: - All commands here exclude their prefix which is set independently through the config.ini file!**   
     `renick`: Animates the user that ran the commands Name   
     (if in a server & the user is included in either allowed_ids or owner_id)  
+	
+	`bnick`: Animates the user that ran the commands Name Forwards then backwards   
+    (if in a server & the user is included in either allowed_ids or owner_id)  
     
 `stop`: This command can ONLY be ran by "owner_id" in the config file. Executing this command will gracefully exit the program logging out of any open sessions first.    
     
