@@ -4,11 +4,33 @@
     Note:  It's recommended that if you are able to do so you should always end the program gracefully with the `stop` command wherever possible.
 
 [Cmnd Index]: - All commands here exclude their prefix which is set independently through the config.ini file!
-    `renick` = Animates the user that ran the commands Name (if in a server & the user is included in either allowed_ids or owner_id)
+	`bnick` = Same as the renick command but it cycles backwards instead of forwards.
+    `renick` = Animates the user that ran the commands Name (if in a server & the user is included in either allowed_ids or owner_id).
+	`say` = Will repeat back whatever you've written in bold.
+	`ping` = Will reply with a ping/pong response including the time it took to respond.
     `stop` = This command can ONLY be ran by "owner_id" in the config file. Executing this command will gracefully exit the program logging out of any open first sessions.
+	
+			///**    The refresh command is currently being worked on and is not useable. Use `reload`, `unload`/`load` or stop instead.   **\\\
     `refresh` = This can be ran by anyone in allowed_ids + owner_id can execute. This is a "soft-restart". It will stop any/all running commands and restart the bot. It will not re-read things like the config file. (changes to config file for example will not be detected by doing `refresh` you must do a hard-restart for that such as manually with the red X button and reopening or by doing the `stop` command and then re-opening the program.
   
-    `test` = Command was left in for debug purposes. Simply shows a message with 3 stats;
-    1, The owner_id as set in the config.ini file.
-    2, The allowed_ids as set in the config.ini file.
-    3, A combination of both used to say when anyone in either owner or allowed_ids should be able to execute command.
+	
+				 #############################################
+				#		[ Operational Commands ]			  #
+				# These are commands to help with the running  #
+				# And general operation of the bot. 		   # 	
+				 ##############################################
+
+	`help` = Shows a help dialog/embed in the server/channel it was sent from listing all commands and a short description for each. 
+	Soon I might add an option to disable the help embed via config to have it display via console instead!
+	
+	`unload`: Allows for unloading of commands rather than restarting the entire bot. 
+	You can only use categories with these Operational Cmnds. 
+		E,G `unload renick` (Note: as renick is a category holding both the `renick` and `bnick` commands unloading it would stop BOTH commands.)
+		
+	`load` 	: Allows for loading of commands if for whatever reason they are not already loaded. 
+	You can verify if a category has loaded for you or not by checking to see if it's visible via the `help` command. 
+		E,G `load anywhere`. This would load the "anywhere" category which holds the `ping`, `say` & `help` commands.
+			NOTE: unloading anywhere will stop the `help` command from functioning until it has been loaded back in!
+			
+	`reload` : Allows for quick and easy reloading of troublesome commands. 
+	Basically does the job of `unload` and then `load` in a single command to save time. 
