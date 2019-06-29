@@ -33,26 +33,26 @@ Eventually this should be a well documented guide explaining how to use the diff
     (*changes to config file for example will not be detected by doing `refresh` you must do a hard-restart for that such as manually with the red X button and reopening or by doing the `stop` command and then re-opening the program.*)   
   
   
-`embed`: Create a custom embed message.
-`altem`: Creates an alternative style embed message.
-`status`: Sets a custom status (e.g: `status h4xr0x selfbot is the best!`)
-`stream`
-`cycle`: Cycles through playing and streaming (e.g: `cycle h4xr0x`)
-`scycle`: Stop the cycle loop.
-`sbnick`
-`srenick`
-`lmgtfy`
-`ping`
-`say`
+`embed`: Create a custom embed message.   
+`altem`: Creates an alternative style embed message.   
+`status`: Sets a custom status (e.g: `status h4xr0x selfbot is the best!`)   
+`stream`   
+`cycle`: Cycles through playing and streaming (e.g: `cycle h4xr0x`)   
+`scycle`: Stop the cycle loop.   
+`sbnick`   
+`srenick`   
+`lmgtfy`   
+`ping`   
+`say`   
 
 
 
 ---------------------------------------------
-**[*****Operational Commands*****]: - All commands here exclude their prefix!**  
-
-Note: `{category}` is a placeholder which should be replaced for the category you are trying to load/unload/reload.
-`Load {category}
-Unload {category}
-Reload {category}`
-Example: `load anywhere`
+**[*****Operational Commands*****]: - All commands here exclude their prefix!**    
+   
+Note: `{category}` is a placeholder which should be replaced for the category you are trying to load/unload/reload.   
+`Load {category}    
+Unload {category}   
+Reload {category}`   
+Example: `load anywhere`   
 The above example would load the `anywhere` category.
