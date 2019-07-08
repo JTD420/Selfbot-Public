@@ -1,7 +1,8 @@
 "**# H4xr0x Bot/Selfbot-Public-Version**"    
 ![h4xr0x](https://img.shields.io/badge/dynamic/json.svg?color=Green&label=h4xr0x&prefix=v&query=$.message&url=http://35.211.65.163/test.json)
+[![keybase](https://img.shields.io/static/v1.svg?label=Add%20me%20on&message=Keybase&color=Blue&logo=keybase?style=for-the-badge)](https://keybase.io/h4xr0x/)   
+
 [![h4xr0x](https://img.shields.io/keybase/pgp/h4xr0x.svg)](https://keybase.io/h4xr0x/pgp_keys.asc)
-[![keybase](https://img.shields.io/static/v1.svg?label=Add%20me%20on&message=Keybase&color=Blue&logo=keybase?style=for-the-badge)](https://keybase.io/h4xr0x/)
 [![Donate-to-h4xr0x-with-BITCOIN](https://img.shields.io/keybase/btc/h4xr0x.svg)](https://keybase.io/h4xr0x/sigchain#4200bc86dc03131241bd4957d1a2ec1f469c203b17f0d9d1d052e1379190334d0f)
 [![Donate-to-h4xr0x-with-XLM](https://img.shields.io/keybase/xlm/h4xr0x.svg)](https://keybase.io/h4xr0x/sigchain#c99a05b36bb2357a138eb8751374200270047a9c581b656eb371aeb5986d416d22)
 
